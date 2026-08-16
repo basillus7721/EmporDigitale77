@@ -101,22 +101,6 @@ export default function Hero() {
       />
 
       {/* Badge */}
-      <div className="reveal flex items-center gap-2 mb-6">
-        <span
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase"
-          style={{
-            background: 'rgba(63,125,255,0.12)',
-            color: 'var(--brand)',
-            border: '1px solid rgba(63,125,255,0.28)',
-          }}
-        >
-          <span
-            className="w-1.5 h-1.5 rounded-full animate-pulse"
-            style={{ background: 'var(--brand)' }}
-          />
-          Website-Building Agency
-        </span>
-      </div>
 
       {/* Headline */}
       <h1
