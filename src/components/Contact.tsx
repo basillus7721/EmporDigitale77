@@ -8,9 +8,9 @@ type PlanChoice = 'basic' | 'premium' | 'deluxe' | 'discuss-later';
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
 const PLAN_OPTIONS: { value: PlanChoice; label: string; price: string }[] = [
-  { value: 'basic', label: 'Basic', price: '₹4,000' },
-  { value: 'premium', label: 'Premium', price: '₹8,000' },
-  { value: 'deluxe', label: 'Deluxe', price: '₹14,000' },
+  { value: 'basic', label: 'Standard', price: '₹7,000' },
+  { value: 'premium', label: 'Premium', price: '₹10,000' },
+  { value: 'deluxe', label: 'Deluxe', price: '₹18,000' },
   { value: 'discuss-later', label: 'Discuss price later', price: '' },
 ];
 
