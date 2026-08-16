@@ -3,10 +3,10 @@ import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 const plans = [
   {
-    name: 'Basic',
-    price: '4000',
+    name: 'Standard',
+    price: '7000',
     currency: '₹',
-    tagline: 'Simple website',
+    tagline: 'Responsive website',
     popular: false,
     features: [
       'Up to 4 pages',
@@ -19,9 +19,9 @@ const plans = [
   },
   {
     name: 'Premium',
-    price: '8000',
+    price: '10000',
     currency: '₹',
-    tagline: 'A bit animated',
+    tagline: 'Animated Website',
     popular: true,
     features: [
       'Up to 8 pages',
@@ -35,12 +35,12 @@ const plans = [
   },
   {
     name: 'Deluxe',
-    price: '14000',
+    price: '18000',
     currency: '₹',
     tagline: 'Fully custom, fully animated',
     popular: false,
     features: [
-      'Unlimited pages',
+      'Up to 20 pages',
       'Full custom animation suite',
       'Custom development',
       'E-commerce / integrations',
